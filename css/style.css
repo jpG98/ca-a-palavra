@@ -1,0 +1,23 @@
+body{
+    background-color: #988cd1;
+}
+.table{
+    width:500px; 
+    height:500px;
+}
+
+.td{
+    background-color: #00f500;
+    animation: cor2 10s infinite;
+}
+
+.tr{
+    text-align: center;
+}
+
+@keyframes cor2{
+    0%{background-color: #e76767;}
+    25%{background-color: #c7db56;}
+    50%{background-color: #c65cd4;}
+    100%{background-color: rgb(135, 238, 161);}
+}
